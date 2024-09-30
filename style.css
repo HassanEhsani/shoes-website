@@ -150,3 +150,6 @@ section .main .button i{
     margin-left: 5px;
     transition: 0.3s;
 }
+section .main .button:hover i{
+    transform: translateX(6px);
+}
