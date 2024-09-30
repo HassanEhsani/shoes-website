@@ -222,8 +222,9 @@ section .main .button:hover i {
     margin: 15px 0;
     transition: 0.3s;
 }
+
 .products .box .card:hover .image img {
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .products .box .card .small_card i {
@@ -239,4 +240,32 @@ section .main .button:hover i {
 
 .products .box .card .small_card i:hover {
     color: #c72092;
+}
+
+.products .box .card .products_text h2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.products .box .card .products_text p {
+    color: #91919191;
+    line-height: 21px;
+    margin: 8px 0;
+}
+
+.products .box .card .products_text h3 {
+    margin: 7px 0;
+}
+
+.products .box .card .products_text .products_star {
+    color: orange;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.products .box .card .products_text .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    color: white;
 }
