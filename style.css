@@ -211,8 +211,19 @@ section .main .button:hover i {
     opacity: 1;
 }
 
+.products .box .card .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .products .box .card .image img {
-    width: 150px;
+    width: 180px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+.products .box .card:hover .image img {
+   transform: scale(1.1);
 }
 
 .products .box .card .small_card i {
@@ -226,6 +237,6 @@ section .main .button:hover i {
     transition: 0.2s;
 }
 
-.products .box .card .small_card i:hover{
+.products .box .card .small_card i:hover {
     color: #c72092;
 }
