@@ -225,3 +225,7 @@ section .main .button:hover i {
     border: 2px solid #999999;
     transition: 0.2s;
 }
+
+.products .box .card .small_card i:hover{
+    color: #c72092;
+}
