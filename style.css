@@ -185,6 +185,43 @@ section .main .button:hover i {
     grid-gap: 25px 0;
 }
 
+.products .box .card {
+    width: 250px;
+    height: 440px;
+    box-shadow: 0 0 8px #6c14d0;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    background: #f6f6f6;
+}
+
+.products .box .card .small_card {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    margin: 10px 0;
+    transform: translateX(-20px);
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.products .box .card:hover .small_card {
+    transform: translateX(2px);
+    cursor: pointer;
+    opacity: 1;
+}
+
 .products .box .card .image img {
     width: 150px;
+}
+
+.products .box .card .small_card i {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px 0;
+    line-height: 40px;
+    border: 2px solid #999999;
+    transition: 0.2s;
 }
